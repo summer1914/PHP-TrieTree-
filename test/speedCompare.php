@@ -1,4 +1,10 @@
 <?php
+/**
+ * @author: kel <https://github.com/deathkel>
+ * @version: 1.0
+ * @datetime: 2018/2/12 上午10:14
+ */
+
 require "../src/TrieTree.php";
 require "../src/TrieTreeAC.php";
 

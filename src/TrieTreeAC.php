@@ -1,7 +1,8 @@
 <?php
 /**
- * Author: Summer
- * Date: 17/8/14
+ * @author: kel <https://github.com/deathkel>
+ * @version: 1.0
+ * @datetime: 2018/2/12 上午10:14
  */
 
 namespace Keyword;
