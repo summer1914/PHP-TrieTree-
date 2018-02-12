@@ -45,3 +45,24 @@ test目录下有个1.5w左右的敏感词。
 mac下检索耗时2~5毫秒左右
 这些敏感词来自网络，不是很全。
 
+- - -
+
+## Aho-Corasick算法优化版（TrieTreeAC.php）
+使用AC算法优化版。
+### 性能对比(TireTreeAC.php与TrieTree.php比较)
+
+* 测试speedCompare.php
+```$xslt
+TrieTree SearchTime {3.6691551208496}s
+TrieTreeAC SearchTime {3.8403348922729}s
+
+```
+`中文情况下（离散度比较大）,与原版差别不大,测试样例还没原版快,真是醉了`
+
+* 测试speedCompareUrl.php
+```$xslt
+TrieTree SearchTime {0.743901014328}s
+TrieTreeAC SearchTime {0.38025712966919}s
+
+```
+`英文,数字等（离散度低）的铭感次库,明显优于原版`
